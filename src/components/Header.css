@@ -24,7 +24,7 @@
   display: flex;
   align-items: center;
   width: 40%;
-  border: 1px solid black;
+  border: 1px solid rgb(206, 206, 206);
 }
 
 .header__input > input {
@@ -34,7 +34,7 @@
 
 .header__inputButton {
   width: 60px !important;
-  background-color: #fafafa;
+  background-color: #f3f3f3;
   border-left: 1px solid lightgray;
   color: grey;
 }
