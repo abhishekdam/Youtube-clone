@@ -1,12 +1,12 @@
 import React from "react";
-import "./RecomendedVideo.css";
+import "./RecommendedVideo.css";
 import VideoCard from "./VideoCard";
 
-function RecomendedVideo() {
+function RecommendedVideo() {
   return (
-    <div className="recomendedVideos">
-      <h2>Recomended</h2>
-      <div className="recomendedVideos__videos">
+    <div className="RecommendedVideos">
+      <h2>Recommended</h2>
+      <div className="RecommendedVideos__videos">
         <VideoCard
           title="Weird Genius - Sweet Scar (ft. Prince Husein)"
           views="58.1M Views"
@@ -148,4 +148,4 @@ function RecomendedVideo() {
   );
 }
 
-export default RecomendedVideo;
+export default RecommendedVideo;
